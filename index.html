@@ -5,19 +5,43 @@
 	<meta charset="UTF-8" />
 	<title>TopoTool</title>
 
-	<meta name="description" content="This application allows doing land-forming on your phone or tablet" />
+	<meta name="description" content="This app allows doing land-forming on your phone or tablet" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="icon" href="content/image/ba2sw6wa1ithwuhls827.png" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
 
 	<meta property="og:title" content="TopoTool" />
-	<meta property="og:description" content="This application allows doing land-forming on your phone or tablet" />
+	<meta property="og:description" content="This app allows you to survey land-surfaces and create digital raster models" />
 	<meta property="og:image" content="assets/og-image.png" />
 
 	<link rel="stylesheet" href="assets/style.css" />
 
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KRCYN0VPDW"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-KRCYN0VPDW');
+	</script>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-NWNTGLX');</script>
+	<!-- End Google Tag Manager -->
 </head>
 
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWNTGLX"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<main>
 		<header class="app__header container">
 			<div class="app__logo-wrapper"> <img class="app__logo" src="content/image/yq2cxsz0gdtftil1lrw4.png"
@@ -40,11 +64,11 @@
 			</div>
 		</header>
 		<div class="app__buttons app__buttons--mobile container">
-			<a href="https://play.google.com/apps/testing/topographic.survey.mapper" class="app__button-play" target="_blank"
+			<a href="https://play.google.com/store/apps/details?id=topographic.survey.mapper" class="app__button-play" target="_blank"
 				title="Get on Google Play">
 				<img src="assets/google-play-badge.png" alt="Get on Google Play">
 			</a>
-			<a href="https://play.google.com/store/apps/details?id=topographic.survey.mapper" class="app__button-play"
+			<a href="https://play.google.com/apps/testing/topographic.survey.mapper" class="app__button-play"
 				target="_blank" title="Get on Google Play">
 				<img src="assets/google-play-badge-beta.png" alt="Get on Google Play">
 			</a>
@@ -55,35 +79,38 @@
 			</div>
 			<div class="app__screenshots-wrapper container-desktop">
 				<div class="app__screenshots-list">
-					<!-- <a href="content/image/ss6ym8wqbrpmjyoi7jc8.png" class="lightbox">
-						<img src="content/image/ss6ym8wqbrpmjyoi7jc8.png" class="app__screenshot" alt="" />
-					</a> -->
-					<a href="content/image/x24qhlzib748zjfvndvx.png" class="lightbox">
-						<img src="content/image/x24qhlzib748zjfvndvx.png" class="app__screenshot" alt="" />
+					<a href="content/image/1.png" class="lightbox">
+						<img src="content/image/1.png" class="app__screenshot" alt="topotool: screenshot track list" />
 					</a>
-					<!-- <a href="content/image/ky1ppq0qw33lmkh1qlc4.png" class="lightbox">
-						<img src="content/image/ky1ppq0qw33lmkh1qlc4.png" class="app__screenshot" alt="" />
+					<a href="content/image/2.png" class="lightbox">
+						<img src="content/image/2.png" class="app__screenshot" alt="topotool: screenshot tracking" />
 					</a>
-					<a href="content/image/wl11en71i68yi8ixyhzd.png" class="lightbox">
-						<img src="content/image/wl11en71i68yi8ixyhzd.png" class="app__screenshot" alt="" />
-					</a> -->
+					<a href="content/image/3.png" class="lightbox">
+						<img src="content/image/3.png" class="app__screenshot" alt="topotool: screenshot rastering" />
+					</a>
+					<a href="content/image/4.png" class="lightbox">
+						<img src="content/image/4.png" class="app__screenshot" alt="topotool: raster list" />
+					</a>
+					<a href="content/image/5.png" class="lightbox">
+						<img src="content/image/5.png" class="app__screenshot" alt="topotool: raster" />
+					</a>
 				</div>
 			</div>
 		</section>
-		<!-- <section class="app__fulldescription app__section container">
+		<section class="app__fulldescription app__section container">
 			<h2 class="app__section-title">Description</h2>
 			<div class="app__fulldescription-content">
-				<p>This application allows you to survey land-surfaces with your phone. This data will me converted into a
-					digital raster model which is useful for land analysis/simulation/design. </p>
+				<p>This application allows you to survey land-surfaces with your android device (android >8.0). This data will be converted into a digital raster model which is useful for land analysis/simulation/design. Those raster models can be exported and for example, used in QGIS</p>
 
 
 				<h3> supported inputs:</h3>
 				<ul>
-					<li>phone GPS/GNSS sensor. If you like to use your external sensor (RTK) you need to mock it as a internal
-						sensor</li>
-					<li>CSV files (EPSG:4326) with latitude, longitude and elevation</li>
+					<li>internal GPS</li>
+					<li>Bluetooth GNSS (RTK) receiver (NMEA)</li>
+					<li>USB-Serial GNSS (RTK) receiver (NMEA)</li>
 					<li>GPX file</li>
-					<li>Ascii Grid (EPSG:4326)</li>
+					<li>CSV files (EPSG:4326) with latitude, longitude, and elevation</li>
+					<!-- <li>Ascii Grid (EPSG:4326)</li> -->
 				</ul>
 				<h3>supported outputs:</h3>
 				<ul>
@@ -92,7 +119,7 @@
 					<li>image (.png) and world file (.pgw)</li>
 				</ul>
 			</div>
-		</section> -->
+		</section>
 	</main>
 	<footer class="footer">
 		<div class="container">
