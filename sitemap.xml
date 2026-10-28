@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<url>
-		<loc>https://topotool.de/</loc>
-	</url>
-	<url>
-		<loc>https://topotool.de/privacy.html</loc>
-	</url>
+  <url>
+    <loc>https://www.topotool.com/</loc>
+  </url>
+  <url>
+    <loc>https://www.topotool.com/privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://www.topotool.com/seven-day-portuguese-plan/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://www.topotool.com/portuguese-directions-map-practice/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://www.topotool.com/brazilian-portuguese-numbers-practice/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
 </urlset>
